@@ -24,7 +24,7 @@ scanf("%i", &numero);
 // }
 
 
-//FUNCAO FOR
+//FUNCAO 'FOR'
 
 if (numero > 0 && numero < 11) {
     printf("Tabuada de %i\n", numero);
@@ -55,7 +55,7 @@ if (numero > 0 && numero < 11) {
 
 
 
-
+          
 }
     return 0;
 }

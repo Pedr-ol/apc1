@@ -25,11 +25,11 @@ int main() {
     struct contato_t contatos [10];
         for (int i = 0; i<10; i++){
         printf("Entre com o nome: ");
-         scanf("%s", contato[i].nome);
+         scanf("%s", contato [i].nome);
          printf("Entre com o telefone: ");
-         scanf("%li", &contato[i].telefone);
+         scanf("%li", &contato [i].telefone);
          printf("Entre com email: ");
-         scanf("%s", contato[i].email);
+         scanf("%s", contato [i].email);
     }
 
     return 0;
